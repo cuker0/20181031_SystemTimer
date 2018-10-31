@@ -26,7 +26,7 @@ namespace _20181031_SystemTimer
         {
             Console.Clear();
 
-            Console.WriteLine($"Actual time: {DateTime.Now}");
+            Console.WriteLine($"Actual time: {DateTime.Now.ToString("HH:mm:ss")} ");
         }
     }
 }
