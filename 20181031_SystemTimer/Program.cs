@@ -26,6 +26,7 @@ namespace _20181031_SystemTimer
             check.Created += EventHandler;
             check.Deleted += EventHandler;
             check.Changed += EventHandler;
+            check.Renamed+= EventHandler;
 
             Console.ReadKey();
                     
